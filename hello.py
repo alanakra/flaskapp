@@ -14,3 +14,7 @@ def about():
 @app.route("/blog")
 def blog():
     return render_template("blog.html")
+
+@app.errorhandler(404)
+def not_found(e):
+    return render_template("404.html")
