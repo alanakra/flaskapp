@@ -5,6 +5,10 @@
     font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
 }
 
+body {
+    padding-left: 20px;
+}
+
 nav ul {
     display: flex;
     list-style: none;
@@ -18,6 +22,10 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+nav ul a:hover {
+    text-decoration: underline;
+}
+
+p a {
     text-decoration: underline;
 }
